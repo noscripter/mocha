@@ -28,7 +28,7 @@ describe('uncaught exceptions', function() {
         'fails exactly once when a global error is thrown first');
       assert.equal(res.failures[1].title,
         'fails exactly once when a global error is thrown second');
-      assert.equal(res.code, 2);
+      assert.equal(res.code, 1);
       done();
     });
   });

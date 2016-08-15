@@ -81,7 +81,7 @@ describe('multiple calls to done()', function() {
       assert.equal(res.stats.pending, 0);
       assert.equal(res.stats.passes, 2);
       assert.equal(res.stats.failures, 2);
-      assert.equal(res.code, 2);
+      assert.equal(res.code, 1);
     });
 
     it('correctly attributes the errors', function() {
